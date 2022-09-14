@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <title>Formulário de cria</title>
+    </head>
+    <body>
+        <header>
+            <form action="" method="post">
+                <h1>Formulário de cria</h1><br>
+                <p>Preencha os dados para prosseguir:</p>
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                    <label for="Nome">Nome:</label>
+                    <input type="text" placeholder="Digite seu nome" id="Nome" Name="userName" required/><br>
+                    <label for="Sobrenome">Sobrenome:</label>
+                    <input type="text" placeholder="Digite seu sobrenome" id="Sobrenome" name="lastName" required/><br>
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Digite seu email" id="email" name="yourEmail" required/><br>
+                    <label for="telNumber">Telefone:</label>
+                    <input type="tel" placeholder="(00) 00000-0000" id="telNumber" name="numberTel" required/><br><br>
+                    <label>Gênero:</label><br>
+                    <input type="radio" name="genero" value="g" required/>Masculino<br>
+                    <input type="radio" name="genero" value="g" required/>Feminino<br>
+                    <input type="radio" name="genero" value="g" required/>Outro<br>
+                    <input type="radio" name="genero" value="g" required/>Prefiro não dizer<br><br>
+                    <label>Raça:</label><br>
+                    <input type="radio" name="i" value="r" required/>Preto(a)
+                    <input type="radio" name="i" value="r" required/>Branco(a)
+                    <input type="radio" name="i" value="r" required/>Pardo(a)<br><br>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Deletar</button>
+                </fieldset>
+            </form>
+        </header>
+    </body>
+    </html>
+
+    <!-- Tag Fieldset
+     No formulário, essa tag tem a função de organizar as informações do formulário
+    dentro de uma "caixa" deixando o mesmo com uma estrutura mais organizada.
+    
+    tag legend
+    Essa tag ela tem como função especificar que tipo de conteúdo vai estar dentro dessa "caixa" criada
+    pela tag <fieldset>. Ao colocar a tag <legend>, ela "quebra" a linha que na parte superior da "caixa"
+    atributo required  criada pela tag <fieldset>. 
+    Esse atributo faz aquela função do formulário que não te deixa passar de fase (vamos dizer assim) se você
+    não tiver preenchido algum campo do formulário.
+
+    atributo placeholder
+    Esse atributo no formulário faz a função de te indicar o que você deve escrever em cada campo do formulário por
+    exemplo quando você está numa tela de login, não escreveu nada mas está lá "digite o seu nome aqui" é usado
+    a tag placeholder para isso!
+
+    atributo action
+    Esse atributo você o coloca antes de fechar a tag <form>, ficando dessa forma:
+    <form action="">. Esse atributo nada mais é do que o local (a URL) que você irá usar para enviar os dados que
+    coletou no formulário!
+
+    tag <header>
+    É o cabeçalho da nossa página.
+ -->
+

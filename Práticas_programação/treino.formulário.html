@@ -1,0 +1,51 @@
+<DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Formulário</title>
+        </head>
+
+        <body>
+            <header>
+                <section>
+                    <p>Cabeçalho</p>
+                </section>
+                <section>
+                    <nav>
+                        <a href="https://www.youtube.com/" target="_blank"><button>Youtube</button></a>
+                        <a href="https://github.com/diegoprogramadorcardoso/" target="_blank"><button>Github</button></a>
+                    </nav>
+                </section>
+            </header>
+            
+            <main>
+                <section>
+                    <form method="post">
+                        <fieldset>
+                            <h1>Formulário</h1>
+                            <legend>Dados pessoais</legend>
+                            <label for="name">Nome:</label><br>
+                            <input type="text" id="name" placeholder="Digite o seu nome" name="userName" required/><br>
+                            <label for="sobrenome">Sobrenome:</label><br>
+                            <input type="text" id="sobrenome" placeholder="Digite seu sobrenome" name="lastName" required/><br>
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" placeholder="Digite seu email" name="userEmail" required/><br>
+                            <label for="telNumber">Telefone para contato:</label><br>
+                            <input type="tel" id="telNumber" placeholder="Digite seu telefone" name="userTel" required/><br>
+                            <label for="foto">Queremos conhecê-lo (a) melhor, envie-nos uma foto de seu rosto, por favor?</label><br>
+                            <input type="file" id="foto" name="userPhoto"/><br>
+                            <label for="genre">Gênero:</label><br>
+                            <input type="radio" id="genre" value="gênero" name="userGender" required/>Masculino
+                            <input type="radio" id="genre" value="gênero" name="userGender" required/>Feminino
+                            <input type="radio" id="genre" value="gênero" name="userGender" required/>Outro
+                            <input type="radio" id="genre" value="gênero" name="userGender" required/>Prefiro não dizer<br><br>
+                            <input type="submit" required/>
+                            <input type="reset" required/>
+                        </fieldset>
+                    </form>
+                </section>
+            </main>
+        </body>
+    </html>
