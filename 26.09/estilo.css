@@ -1,0 +1,37 @@
+button{
+    /* margem do topo */
+    margin-top: 100px;
+    /* margem da esquerda */
+    margin-left: 100px;
+    /* margem da direita */
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+#botao-espacamento{
+    background-color: blueviolet;
+    /* atalho para declaração de todas as partes da margem */
+    margin: 0;
+    /* padding-top: 100px; */
+    /* padding-left: 200px; */
+    /* padding-right: 200px; */
+    /* padding-bottom: 100px; */
+    padding: 100px;
+    /* padding: 60px 40px 100px 10px; */
+    border-style: dashed;
+}
+#botao-border{
+    /* border-style: double; */
+    /* border-width: 15px; */
+    /* border-color: aqua; */
+    border: 15px double green;
+
+}
+
+#botao-border:hover{
+    border: none;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    
+
+}
